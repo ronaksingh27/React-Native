@@ -5,7 +5,7 @@ export default function FlatCards() {
   return (
     <View>
       <Text style={styles.headingText}>FlatCards</Text>
-      <View style = {styles.container}>
+      <View style={styles.container}>
         <View style={[styles.card, styles.cardOne]}>
           <Text>Red</Text>
         </View>
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     borderRadius: 4,
     justifyContent: 'center',
     alignItems: 'center',
-    margin : 10,
+    margin: 10,
   },
   cardOne: {
     backgroundColor: '#FF0000',
@@ -46,10 +46,10 @@ const styles = StyleSheet.create({
   cardThree: {
     backgroundColor: '#0000FF',
   },
-  container : {
-    flex : 1,
-    flexDirection : 'row',
-    padding : 5,
+  container: {
+    flex: 1,
+    flexDirection: 'row',
+    padding: 5,
   },
 });
 
